@@ -1,0 +1,16 @@
+Kegiatan 1
+a. Kegunaan fopen() untuk membuka file.  
+   Sedangkan maksud dari parameter di dalam fopen() adalah $namafile berfungsi untuk memasukkan file yang akan dibuka, “r” berfungsi untuk membaca file saja
+b. function die() untuk menampilkan string ketika file/perintah sebelumnya tidak dapat dibuka, error, atau hilang
+c. fread() untuk membaca file
+   Parameter pertama adalah nama file yang akan dibuka
+   Parameter kedua untuk menentukan batas maksimum bytes yang akan dibaca
+d. fclose() untuk menutup file, jika tidak digunakan maka file akan memakan memori yang banyak ketika akan dibuka lagi, atau bisa terjadi error pada file
+
+Kegiatan 2
+a. feof() untuk mengecek apakah sudah sampai ke akhir file ( end-of-file )
+b. fgets() untuk membaca satu baris dari sebuah file
+
+Kegiatan 3
+a. fwrite() untuk menulis isi file
+b. Seluruh isi dalam file terhapus dan digantikan isi baru yang akan diinputkan.
