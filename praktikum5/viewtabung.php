@@ -1,5 +1,5 @@
 <?php
-
+//author @alta
 
 $namaFile = "datatabung.dat";
 $myFile = fopen($namaFile, "r") or die("File tidak bisa dibuka!");
@@ -18,7 +18,7 @@ echo("<tr>
 while (!feof($myFile)){
     echo("<tr>");
     $dataTabung = explode(",", fgets($myFile));
-    $link = "http://localhost:8080/pemweb/hitungluas.php";
+    $link = "http://localhost:8080/pemweb/hitungluas.php?n=$dataTabung[0]&d=$dataTabung[1]&t=$dataTabung[2]";
     echo("
         <td>$dataTabung[0]</td>
         <td>$dataTabung[1]</td>
